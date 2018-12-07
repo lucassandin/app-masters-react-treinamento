@@ -1,0 +1,66 @@
+.center {
+    padding: 20px;
+    text-align: center;
+}
+
+.center label {
+    width: 80px;
+    height: 80px;
+    background: #eee;
+    border-radius: 50%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avatar-class {
+    padding: 20px;
+}
+
+#avatar-choose {
+    display: none;
+}
+
+input, textarea {
+    /* background-color: #eeeeee;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px;
+    border: none;
+    border-radius: 5px; */
+}
+
+
+input:not([type="checkbox"]), textarea {
+    background-color: #eeeeee;
+    width: 97%;
+    padding: 10px 0;
+    padding-left: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form {
+    background-color: white;
+    width: 31%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.buttonSubmit {
+    width: 100%;
+    border: none;
+    color: #fff;
+    background-color: #0092cd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}

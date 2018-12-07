@@ -1,0 +1,51 @@
+.post {
+    background-color: white;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.label {
+    width: 80px;
+    height: 80px;
+    background: #eee;
+    border-radius: 50%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.post h2 {
+    display: grid;
+    margin: 0px 70px;
+    padding: 25px;
+}
+
+.time {
+    float: right;
+}
+
+.text-post {
+    padding: 20px 0;
+}
+
+.likes {
+    float: right;
+    border: none;
+}
+
+.likes img {
+    height: 12px;
+    vertical-align: middle;
+}
+
+.comments {
+    float: right;
+    border: none;
+    color: #0091ce;
+}
